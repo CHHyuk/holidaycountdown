@@ -5,7 +5,7 @@ import Loading from './components/Loading.client'
 import BackgroundImgChanger from './modules/backgroundImgChanger';
 
 export default function Page() {
-  const titleTop = "He's waiting for".split(' ').map((word, index) => (
+  const titleTop = "It's not finished yet.".split(' ').map((word, index) => (
     <React.Fragment key={index}>
       {word.split('').map((char, charIndex) => (
         <span key={charIndex} className={styles.char}>{char}</span>
@@ -14,7 +14,7 @@ export default function Page() {
     </React.Fragment>
   ));
 
-  const titleBtm = "HoLidays!".split(' ').map((word, index) => (
+  const titleBtm = "Please wait :)".split(' ').map((word, index) => (
     <React.Fragment key={index}>
       {word.split('').map((char, charIndex) => (
         <span key={charIndex} className={styles.char}>{char}</span>
