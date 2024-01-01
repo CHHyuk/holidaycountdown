@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+.container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  font-family: 'Single Day';
+  height: 15%;
+  width: 100%;
+  font-size: calc(16px + 4vw);
+}
+
+.themeBtnGroup {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 15%;
+  width: 15%;
+}
+
+.themeBtn {
+  transition: transform 0.3s;
+  cursor: pointer;
+  transform-origin: center;
+  color: var(--text-color);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.themeBtn:hover {
+  transform: scale(1.2);
+}
+
+.speakerIcon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 10%;
+  width: 15%;
+  cursor: pointer;
+  transform-origin: center;
+  transition: transform 0.3s;
+}
+
+.speakerIcon:hover {
+  transform: scale(1.2);
+}
